@@ -12,5 +12,6 @@ public class Example5 {
         System.out.println("Input height: ");
         float height = in.nextFloat();
         System.out.printf("Name: %s Age: %d Height: %.2f \n", name, age, height);
+        in.close();
     }
 }

@@ -15,5 +15,6 @@ public class Example10 {
         System.out.println("Input year of birth: ");
         int year_of_birth = in.nextInt();
         System.out.printf("Your age: %d", current_year - year_of_birth);
+        in.close();
     }
 }

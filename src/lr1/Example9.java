@@ -10,5 +10,6 @@ public class Example9 {
         System.out.println("Input count of days: ");
         int count_of_days = in.nextInt();
         System.out.printf("%s has %d days", month, count_of_days);
+        in.close();
     }
 }

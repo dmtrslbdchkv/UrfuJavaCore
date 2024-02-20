@@ -12,5 +12,6 @@ public class Example8 {
         System.out.println("Input day number: ");
         int day_number = in.nextInt();
         System.out.printf("Day: %s, Day number: %d, Month: %s", day, day_number, month);
+        in.close();
     }
 }
