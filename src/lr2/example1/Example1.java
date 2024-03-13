@@ -16,16 +16,19 @@ public class Example1 {
             nums[i] = random.nextInt(200);
             System.out.println("Элемент массива [" + i + "] = " + nums[i]);
         }
-        Arrays.sort(nums);
-        System.out.println("Произведена сопротивка массива");
-        for (int i = 0; i < nums.length; i++) {
-            System.out.println("Элемент массива [" + i + "] после сортировки = " + nums[i]);
-        }
+        System.out.println("Начинается поиск минимума");
         int min = nums[0];
-        System.out.println("Значение минимального элемента: " + min);
+        for (int i = 1; i < nums.length; i++) {
+            if (nums[i] < min) {
+                min = nums[i];
+            }
+        }
+        System.out.println("Поиск минимума закончен.\nЗначение минимума = " + min);
+        System.out.println("Поиск всех минимальных");
         for (int i = 0; i < nums.length; i++) {
             if (nums[i] == min) {
                 System.out.println("Индекс минимального элемента: " + i);
+                System.out.println("Значение минимального элемента: " + nums[i]);
             }
         }
     }
