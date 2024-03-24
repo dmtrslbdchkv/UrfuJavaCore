@@ -1,6 +1,6 @@
-package lr3.example5;
+package lr3.task1;
 
-public class Recursion {
+public class Example5 {
     public static int fact(int n) {
         System.out.println("n = " + n);
         if (n == 0) {

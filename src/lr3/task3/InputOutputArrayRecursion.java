@@ -1,4 +1,4 @@
-package lr3.example8;
+package lr3.task3;
 
 import java.util.Scanner;
 

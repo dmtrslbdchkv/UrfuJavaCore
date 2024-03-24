@@ -1,6 +1,6 @@
-package lr3.example4;
+package lr3.task1;
 
-public class Recursion {
+public class Example4 {
     public static int fact(int n) {
         int result;
         if (n == 1) {

@@ -1,6 +1,6 @@
-package lr3.example3;
+package lr3.task1;
 
-public class Recursion {
+public class Example3 {
     private static int step = 0;
 
     public static void m(int x) {
