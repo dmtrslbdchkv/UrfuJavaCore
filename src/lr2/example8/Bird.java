@@ -12,6 +12,7 @@ public class Bird extends Animal {
         return isFly;
     }
 
+
     public void setIsFly(boolean isFly) {
         this.isFly = isFly;
     }
