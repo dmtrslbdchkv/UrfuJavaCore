@@ -1,7 +1,15 @@
 package lr3.task8;
 
 public class LinkedList {
-    public Node head;
+    private Node head;
+
+    public Node getHead() {
+        return head;
+    }
+
+    public void setHead(Node head) {
+        this.head = head;
+    }
 
     public void createHead(int data) {
         head = new Node(data, head);

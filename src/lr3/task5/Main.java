@@ -1,10 +1,11 @@
 package lr3.task5;
 
 import java.util.HashMap;
+import java.util.Map;
 
 public class Main {
     public static void main(String[] args) {
-        HashMap<Integer, String> map = new HashMap<>();
+        Map<Integer, String> map = new HashMap<>();
         map.put(0, "Ноль");
         map.put(1, "Один");
         map.put(2, "Два");
