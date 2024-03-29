@@ -13,6 +13,6 @@ public class Example5 {
     }
 
     public static void main(String[] args) {
-        System.out.println(fact(5));
+        System.out.println("Число Фибоначчи = " + fact(5));
     }
 }
