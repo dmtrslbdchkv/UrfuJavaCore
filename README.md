@@ -9,7 +9,7 @@ LR
 lr1 - ready\
 lr2 - ready\
 lr3 - ready\
-lr4 - ?\
+lr4 - ready\
 lr5 - ?\
 lr6 - ?\
 lr7 - ?\
