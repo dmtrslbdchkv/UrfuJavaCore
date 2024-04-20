@@ -1,4 +1,4 @@
-package lr5.tasks;
+package lr5;
 
 import java.util.List;
 import java.util.stream.Collectors;
