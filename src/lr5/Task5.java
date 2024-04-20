@@ -11,8 +11,9 @@ public class Task5 {
         inputList.add("banana");
         inputList.add("orange");
         inputList.add("grape");
+        System.out.println("Список до: " + inputList);
         List<String> filteredList = filterStrings(inputList, "an");
-        System.out.println("Filtered list: " + filteredList);
+        System.out.println("Список после: " + filteredList);
     }
 
     public static List<String> filterStrings(List<String> list, String substring) {
