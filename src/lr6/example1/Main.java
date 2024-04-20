@@ -1,4 +1,4 @@
-package lr5.example1;
+package lr6.example1;
 
 import java.time.LocalTime;
 
