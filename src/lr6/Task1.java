@@ -1,8 +1,8 @@
-package lr6.example1;
+package lr6;
 
 import java.time.LocalTime;
 
-public class Main {
+public class Task1 {
     public static void main(String[] args) throws InterruptedException {
         Thread t1 = new Thread(() -> {
             for (int i = 0; i < 10; i++) {
@@ -14,6 +14,7 @@ public class Main {
                 }
             }
         });
+
         Thread t2 = new Thread(() -> {
             for (int i = 0; i < 10; i++) {
                 System.out.println(Thread.currentThread().getName() + ": " + LocalTime.now());
@@ -24,6 +25,7 @@ public class Main {
                 }
             }
         });
+
         t1.start();
         t2.start();
         t1.join();
