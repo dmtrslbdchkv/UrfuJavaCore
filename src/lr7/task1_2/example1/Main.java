@@ -1,11 +1,11 @@
-package lr7.examples;
+package lr7.task1_2.example1;
 
 import java.io.File;
 import java.io.IOException;
 
-public class Example1 {
+public class Main {
     public static void main(String[] args) {
-        File folder = new File("src/lr7/examples/example_folder");
+        File folder = new File("src/lr7/task1_2/example1/example_folder");
         if (!folder.exists()) {
             if (folder.mkdir()) {
                 System.out.println("Папка создана: " + folder.getAbsolutePath());
