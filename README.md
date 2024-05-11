@@ -12,7 +12,7 @@ lr3 - ready\
 lr4 - ready\
 lr5 - ready\
 lr6 - ready\
-lr7 - ?\
+lr7 - ready\
 lr8 - ?
 
 
