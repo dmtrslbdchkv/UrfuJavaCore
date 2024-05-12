@@ -4,7 +4,7 @@ Mag UrFU JavaCore
 
 Группа: РИМ-130971
 
-LR
+LR (8 из 8)
 
 lr1 - ready\
 lr2 - ready\
@@ -13,10 +13,10 @@ lr4 - ready\
 lr5 - ready\
 lr6 - ready\
 lr7 - ready\
-lr8 - ?
+lr8 - ready
 
 
-Timus list-ready
+Timus (3 из 20)
 
 1293\
 1409\
