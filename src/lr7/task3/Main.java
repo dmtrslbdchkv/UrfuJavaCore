@@ -5,7 +5,7 @@ import java.io.*;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        String fileName = "src/lr7/task2/input.txt";
+        String fileName = "src/lr7/task3/input.txt";
         BufferedReader reader =
                 new BufferedReader(
                         new FileReader(fileName));
